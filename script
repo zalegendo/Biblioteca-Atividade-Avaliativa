@@ -1,0 +1,12 @@
+function cadastrar(event) {
+    event.preventDefault();
+
+    var nome = document.getElementById('nome').value;
+
+    var mensagemSucesso = document.getElementById('mensagem-sucesso');
+    mensagemSucesso.style.display = 'block';
+    mensagemSucesso.querySelector('p').innerText = `Pessoa ${nome} foi cadastrada com sucesso!`;
+
+    document.getElementById('form-cadastro').reset();
+    return false;
+}

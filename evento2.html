@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversários - Festcorp Eventos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Festa de Aniversário </h1>
+    </header>
+
+    <main>
+        <section id="detalhes-evento">
+            <h2><img src="https://meupiaui.com/wp-content/uploads/2023/12/fotografia-festa-aniversario-mesa-baloes-bolo.webp" width=916px length=516px></h2>
+            <h2><img src="https://img.freepik.com/fotos-gratis/festa-de-aniversario-de-brilho-de-bolo-de-baloes-e-fundo-de-confete_1409-5101.jpg" width=916px length=516px></h2> 
+            <h2>Pacote principal</h2>
+            <p><strong>Datas disponiveis:</strong> durante todo  ano de 2024</p>
+            <p><strong>Horarios:</strong>  apartir das 17:00</p>
+            <p>Instalações e Serviços</p>
+                <p>Área Externa:
+                Nosso jardim expansivo, adornado com paisagismo exuberante, proporciona um cenário encantador para cerimônias ao ar livre. Com um gramado bem cuidado, pérgolas floridas e fontes tranquilas, a área externa é ideal para recepções, coquetéis e sessões de fotos inesquecíveis.</p>
+                
+                <p>Salão Principal:
+                O salão principal é um espaço amplo e elegantemente decorado, capaz de acomodar confortavelmente até 500 convidados. Equipado com sistemas de som e iluminação de última geração, o salão é perfeito para jantares, bailes e festas. O design flexível permite diversas configurações de mesa e pista de dança.</p>
+                
+                <p>Espaço Gourmet:
+                Nosso espaço gourmet oferece uma experiência culinária excepcional. Contamos com uma equipe de chefs experientes que criam menus personalizados para cada evento, desde buffets sofisticados até banquetes formais. A cozinha totalmente equipada garante que todos os pratos sejam preparados com os mais altos padrões de qualidade.</p>
+                
+                <p>Área de Convivência:
+                A área de convivência é um espaço acolhedor onde os convidados podem relaxar e socializar. Com confortáveis sofás, mesas de café e uma decoração charmosa, é o lugar perfeito para conversas informais e momentos de descontração durante o evento.</p>
+                
+                <p>Estacionamento Amplo:
+                Oferecemos um estacionamento amplo e seguro, com capacidade para acomodar até 200 veículos. Contamos com serviço de manobrista para garantir a conveniência e tranquilidade dos seus convidados.</p>
+                
+                <p>Serviços Adicionais:</p>
+                <p>Planejamento de Eventos
+                Nossa equipe de planejamento de eventos está à disposição para ajudá-lo em cada etapa do processo, garantindo que sua celebração seja exatamente como você sonhou. Desde a concepção inicial até a execução final, cuidamos de todos os detalhes para que você possa aproveitar cada momento.</p>
+                
+                <p>Decoração Personalizada
+                Oferecemos serviços de decoração personalizados para criar a atmosfera perfeita para o seu evento. Trabalhamos com os melhores decoradores da região para transformar nossos espaços de acordo com suas preferências e tema escolhido.</p>
+                
+                <p>Entretenimento
+                Disponibilizamos uma variedade de opções de entretenimento para animar sua celebração. Desde DJs e bandas ao vivo até performances especiais e fogos de artifício, garantimos que seu evento será memorável e divertido.</p>
+        </section>
+
+        <section id="cadastro">
+            <h2>Cadastre-se e faça já o seu orçamento</h2>
+            <form id="form-cadastro" onsubmit="return cadastrar(event)">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone">
+
+                <button type="submit">Cadastrar</button>
+            </form>
+            <div id="mensagem-sucesso" class="mensagem-sucesso" style="display: none;">
+                <p></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Festcorp Eventos</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
